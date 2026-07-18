@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "reachy_mini_peekaboo"
+version = "0.1.0"
+description = "Peekaboo app for Reachy Mini — hides, then peeks up to look at you when it hears a sound."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "reachy-mini",
+    "numpy",
+]
+keywords = ["reachy-mini-app"]
+
+[project.entry-points."reachy_mini_apps"]
+reachy_mini_peekaboo = "reachy_mini_peekaboo.main:ReachyMiniPeekaboo"
+
+[tool.setuptools]
+package-dir = { "" = "." }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+reachy_mini_peekaboo = ["**/*"] # Also include all non-.py files

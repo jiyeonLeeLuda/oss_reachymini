@@ -1,0 +1,8 @@
+{
+  // VSCode 통합 터미널에서 Python 기본 인코딩을 UTF-8로 강제한다.
+  // (reachy-mini-app-assistant 의 check/publish 가 한글 주석 파일을 읽을 때
+  //  cp949 로 읽다 UnicodeDecodeError 가 나는 문제를 방지)
+  "terminal.integrated.env.windows": {
+    "PYTHONUTF8": "1"
+  }
+}

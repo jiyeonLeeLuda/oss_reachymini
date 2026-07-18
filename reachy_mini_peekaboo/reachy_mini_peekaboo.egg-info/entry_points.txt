@@ -1,0 +1,2 @@
+[reachy_mini_apps]
+reachy_mini_peekaboo = reachy_mini_peekaboo.main:ReachyMiniPeekaboo

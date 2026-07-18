@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+./reachy_mini_peekaboo/__init__.py
+./reachy_mini_peekaboo/main.py
+reachy_mini_peekaboo/__init__.py
+reachy_mini_peekaboo/main.py
+reachy_mini_peekaboo.egg-info/PKG-INFO
+reachy_mini_peekaboo.egg-info/SOURCES.txt
+reachy_mini_peekaboo.egg-info/dependency_links.txt
+reachy_mini_peekaboo.egg-info/entry_points.txt
+reachy_mini_peekaboo.egg-info/requires.txt
+reachy_mini_peekaboo.egg-info/top_level.txt
