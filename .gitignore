@@ -1,2 +1,8 @@
-﻿.venv
+.venv
 reachymini_real.bat
+
+# Python 빌드 산출물
+build/
+*.egg-info/
+__pycache__/
+*.pyc
