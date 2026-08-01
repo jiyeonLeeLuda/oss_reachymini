@@ -13,6 +13,7 @@
 ```powershell
 cd d:\git\oss_reachymini
 python -m venv .venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 .\.venv\Scripts\Activate.ps1
 pip install "reachy-mini[mujoco]"
 ```
