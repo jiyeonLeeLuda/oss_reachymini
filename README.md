@@ -50,6 +50,19 @@ oss_reachymini/
 | [`app/peekaboo/peekaboo_demo.py`](app/peekaboo/peekaboo_demo.py) | 같은 동작을 클래스/함수 없이 흐름이 한눈에 보이게 쓴 공부·실험용 단일 스크립트 |
 | [`app/peekaboo/DEPLOY_peekaboo.md`](app/peekaboo/DEPLOY_peekaboo.md) | 검증(`check`)부터 게시(`publish`)까지 배포 전 과정과 실제 겪은 함정·해결법 |
 
+### 연관 저장소 — 공모전 본 개발
+
+AI 스마트 데스크 동반자 본 개발은 이 저장소가 아니라 별도 fork에서 진행합니다:
+
+| 저장소 | 역할 |
+| :--- | :--- |
+| [`dreamrobot75/reachy_mini_conversation_app`](https://github.com/dreamrobot75/reachy_mini_conversation_app) | [pollen-robotics/reachy_mini_conversation_app](https://github.com/pollen-robotics/reachy_mini_conversation_app) fork. 공모전 기능 개발 본체 |
+| `oss_reachymini` (이 저장소) | 팀 문서·계획·학습용 데모 허브 |
+
+fork의 브랜치 규칙: `main`은 upstream(pollen-robotics) 미러 전용(직접 커밋 금지),
+`develop`이 팀 기준 브랜치(공모전 설계 문서·CLAUDE.md 포함), 기능 작업은
+`develop`에서 `feat/<기능>` 브랜치를 따서 `develop`으로 PR.
+
 ## 요구 사항
 
 - Python ≥ 3.10
